@@ -1,0 +1,145 @@
+body{
+    max-width: 1000px;
+    margin: 100px auto;
+    font-family: sans-serif;
+    background-color: #FA5007;
+}
+
+main{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-rows: repeat(8 , minmax(100px, auto));
+    grid-auto-flow: dense;  
+}
+
+h1{
+    font-size: 9.2vw;
+}
+p{
+    font-size: 2vw;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-top: -1px;
+}  
+
+.author{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    z-index: 2;
+    
+}
+.english{
+    grid-column: 1/span 4;
+    grid-row: 3;
+    z-index: 2;
+    align-items: start;
+    max-height: 30px;
+    line-height: 0px;
+}
+.design {
+    grid-column: 1;
+    grid-row: 4;
+    z-index: 2;
+}
+.manual {
+    grid-column: 3/span 2;
+    grid-row: 4;
+    z-index: 2;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-top: -1px;
+    margin-right: 2em;
+}
+
+.deutsch {
+    grid-column: 1/ span4;
+    grid-row: 5;
+    z-index: 2;
+    align-self: start;
+    max-height: 30px;
+    line-height: 0px;
+}
+
+.gestaltung {
+    grid-column: 1;
+    grid-row: 6;
+    z-index: 2;
+    margin-right: 2em;
+}
+.handbuch {
+     grid-column: 3/span 2;
+     grid-row: 6;
+     z-index: 2;
+}
+.niggli {
+     grid-column: 3;
+     grid-row: 8;
+     align-self: end;
+     line-height: 0px;
+}
+
+.col-1 {
+   grid-column: 1 / 2;
+   grid-row: 1 / 9;
+   border: 1px solid #fff;
+}
+.col-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 9;
+    border: 1px solid #fff;
+}
+.col-3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 9;
+    border: 1px solid #fff;
+}
+
+.col-4 {
+    grid-column: 4/ 5;
+    grid-row: 1 / 9;
+    border: 1px solid #fff;
+}
+
+.row-1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    border: 1px solid #fff;
+}
+
+.row-2 {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    border: 1px solid #fff;
+}
+.row-3 {
+    grid-column: 1 / 5;
+    grid-row: 3/ 4;
+    border: 1px solid #fff;
+}
+.row-4 {
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+    border: 1px solid #fff;
+}
+.row-5 {
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+    border: 1px solid #fff;
+}
+.row-6 {
+    grid-column: 1 / 5;
+    grid-row: 6 / 7;
+    border: 1px solid #fff;
+}
+
+.row-7 {
+    grid-column: 1 / 5;
+    grid-row: 7 / 8;
+    border: 1px solid #fff;
+}
+.row-8 {
+    grid-column: 1 / 5;
+    grid-row: 8 / 9;
+    border: 1px solid #fff;
+}

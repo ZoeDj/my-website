@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: #fcf3de;
+}
+
+p{
+    display: grid;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 5%;
+}
+        
+main{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 50px auto;
+}
+
+img{
+    display:block;
+    width: 100%;
+}
+
+.mode{
+    filter: sepia(0.7) hue-rotate(305deg) saturate(8) brightness(1);
+}
