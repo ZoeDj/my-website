@@ -437,7 +437,7 @@ Header styles minus menu
     background: -o-linear-gradient( right, #8290b8, #ff4d4d); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #8290b8, #ff4d4d); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #8290b8, #ff4d4d); /* Standard syntax */
-    opacity: 1; 
+    opacity: 0.9; 
 }
 
 @media screen and (min-width: 50em) {
@@ -670,7 +670,7 @@ Main Navigation
 /*-------------------------------------Layouts---------------------------------*/
 
 body {
-    background: #e6e6e6;
+    background: url("../img/topography.png")repeat;
     
 }
 
@@ -1111,6 +1111,7 @@ footer {
 	width: 100%;
 	margin: auto; 
     background: black;
+    opacity: 0.9;
     font-size: 0.7em;
     color: white;
     text-align: center;
@@ -1354,7 +1355,7 @@ footer ul{
 
     .main-navigation a,
     .dropdown-toggle {
-        color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 3%);
     }
 
 	.main-navigation a,
