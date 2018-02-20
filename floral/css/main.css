@@ -1,0 +1,254 @@
+/***** BASE STYLES *****/
+body {
+    max-width: 3000px;
+	font-family: 'Source Sans Pro', sans-serif;
+    margin-top:-20px;
+}
+
+p{
+    font-size: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/***** GRID *****/
+
+.full-width {
+    width: 100%;
+    float:left;
+}
+
+.half-width {
+    width: 100%
+	float: left;
+}
+
+.third-width {
+	width: 100%;
+}
+
+/***** HEADER *****/
+
+header{
+    width: 100%;
+    background: url("../img/background1.jpg");
+    background-size: cover;
+}
+
+header h1 { 
+	font-size: 3em;
+	color:  #262a2b;
+    margin-left: 20%; 
+    float: left;
+    margin-top: 10px;
+}
+nav{
+    visibility: hidden;
+}
+
+
+/***** ABOUT *****/
+
+#about h2 {
+	font-size: 2em;
+	color: #262a2b;
+    margin-left: 10%;
+}
+
+#about p {
+	color: #7f7f7f;
+	line-height: 40px;
+}
+
+/***** WORK *****/
+#work {
+  text-align: center;
+}
+
+#work .full-width {	
+  padding-top: 10%;
+  background-color: #D8B28A; 
+} 
+
+#work img {
+	height: 85px;
+    width: 85px;
+}
+	
+#work h3 {
+	font-size: 2em;
+	color:#ffffff;
+	margin: 0 auto;
+     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#work p {
+    line-height: 30px;
+    color: #ffffff;
+}
+
+
+/***** CONTACT *****/
+	
+
+#contact .full-width {
+	background-color: #ebebeb;
+}
+
+#contact-img{
+    padding-top: 10%;
+    width:100%;
+}
+#contact h2 {
+	font-size: 3em;
+    font-family: 'Bilbo Swash Caps', cursive;
+}
+
+#contact #email-header{
+	font-size: 2em;
+}
+
+#contact ul {
+    list-style: none;
+	margin-left: -40px;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding: 10px;
+}
+
+#contact-info {
+	text-align: center;
+}    
+
+
+/*Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header { width: 100%;}
+    .full-width { width: 100%;  float: left; }
+    .half-width {width: 50%; float: left;}
+    .third-width {width:33.33%; float: left; }
+}
+#about, #work  #contact {
+    height: 400px;
+}
+
+header {
+    height: 400px;
+}
+
+nav ul{
+    margin-top: -30px;
+}
+
+nav ul li {	
+  
+  display: inline-block;	
+  margin-right: 3%;	
+  margin-top: -30px;
+  text-transform: uppercase; 
+}
+
+nav ul li a {
+    visibility: visible;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #262a2b;
+}
+
+/* Large devices (desktops, 940px and up) */
+@media only screen and (min-width: 940px) {
+
+    header {max-width: 1600px;  width: 100%;}
+    .full-width {max-width: 1600px;  width: 100%; float: left;}
+    .half-width {max-width: 600px; float: left;}
+    .third-width {width:33.33%; max-width: 400px;  min-height: 250px; float: left;}
+
+    
+nav ul li a {
+    font-size: 2em;
+    margin-left: 5px;
+    padding-left: 40px;
+}
+header h1{
+        font-size: 3em;
+    }
+  
+/***** ABOUT *****/
+   
+
+#about .full-width {
+    float: left;
+}
+
+#about p {
+    margin-left: 25%;
+}
+#about h2{
+    text-align: center;
+    margin-left: auto;
+    }
+
+/***** WORK *****/
+
+#work .full-width {
+    padding-top: 115px;
+    text-align: center;
+    height: 400px;
+} 
+#work img {
+    padding-bottom: 30px;
+}
+    
+#work h3{
+    width: 400px;
+    margin: 0 auto;    
+}
+
+#work p{
+    line-height: 30px;
+    padding: 0 35px;
+    text-align: center;}
+
+/***** CONTACT *****/
+
+#contact .full-width {
+    display: inline-flex;
+}
+
+#contact-img {
+     margin-left: 20%;
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    margin-top: 10%;
+    padding-left: 115px;
+}
+  
+#envelope {
+    padding: 0 10px 0 115px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact img {
+    padding-left: 40px;
+    max-width: 400px;
+    
+}
+    }
+
+
+
+
+
+
+

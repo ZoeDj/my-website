@@ -143,3 +143,12 @@ p{
     grid-row: 8 / 9;
     border: 1px solid #fff;
 }
+
+@media screen and (min-width: 1600px){
+    h1{
+    font-size: 6em;
+}
+    p{
+    font-size: 1em;
+    }
+    }
