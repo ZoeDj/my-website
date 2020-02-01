@@ -1,0 +1,19 @@
+body{
+    
+}
+
+.main-content{
+	max-width: 1000px;
+    margin: 50px auto;
+	display: flex;
+}
+
+
+.portfolio {
+  display: flex;
+  height: 100%;
+  grid-template-rows: repeat(8, minmax(100px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+	color: transparent;
+}
