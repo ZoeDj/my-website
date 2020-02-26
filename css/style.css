@@ -696,8 +696,8 @@ body {
     justify-content:space-evenly; 
 }
 
-.main p {
-    font-size: 1.2em;
+.main p ul li{
+    font-size: 1em;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -1177,6 +1177,7 @@ figure {
   filter: hue-rotate(120deg);
     width: 80%; 
 }
+
 /*----------------------------------Front Page----------------------------------*/
 .welcome{
     margin-left: 7%;
@@ -1781,6 +1782,7 @@ img.process-img{
 
 /*----------------------------------Tablet----------------------------------*/
 @media screen and (min-width: 767px) {
+
 .main h1 p{ 
     width: 100%}   
 .text {
@@ -1851,10 +1853,14 @@ img.process-img{
 }
 /*----------------------------------Desktop----------------------------------*/
 @media screen and (min-width: 1200px) {
+
 html, body {
 	margin:0;
 	padding:0;
 	height:100%;
+}
+.about{
+    margin: 10%;
 }
 .main .process{
     width: 100%;
