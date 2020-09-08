@@ -45,6 +45,11 @@ a {
   flex: 1 1 200px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 600px) {
   /* no grid support? */
   .block-a,
@@ -109,5 +114,16 @@ a {
   .wrapper > * {
     width: auto;
     margin: 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  img.site-map {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  img.site-map {
+    width: 700px;
   }
 }
